@@ -1,0 +1,25 @@
+dnl
+dnl  $Id: configure.in,v 1.11 2005/07/05 17:35:56 holtmann Exp $
+dnl
+
+AC_PREREQ(2.50)
+AC_INIT()
+
+AM_INIT_AUTOMAKE(bluez-hciemu, 1.2)
+AM_CONFIG_HEADER(config.h)
+
+AM_MAINTAINER_MODE
+
+AC_INIT_BLUEZ
+
+AC_LANG_C
+
+AC_PROG_CC
+AC_PROG_CC_PIE
+AC_PROG_INSTALL
+
+AC_PATH_BLUEZ
+
+AC_ARG_BLUEZ
+
+AC_OUTPUT(Makefile)

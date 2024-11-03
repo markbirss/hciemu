@@ -1,0 +1,28 @@
+ver 1.2:
+	Update for Bluetooth 2.0 with EDR specification.
+	Use glib-ectomy.[ch] to avoid GLib dependency.
+	Add simple HCI proxy mode.
+
+	Note:
+	This version needs at least bluez-libs-2.18
+
+ver 1.1:
+	The big cleanup after 2 years of no maintainance.
+
+ver 1.0:
+	Automake build environment.
+	Minor cleanups and fixes.
+
+ver 0.4:
+	Compatibility with latest BlueZ releases.
+
+ver 0.3:
+	Event generation and other minor fixes.
+	Compatibility with latest BlueZ releases.
+
+ver 0.2:
+	Support for essential HCI commands and events.
+	Support for multiple ACL connection via TCP.
+
+ver 0.1:
+	Initial implementation.
